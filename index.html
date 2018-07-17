@@ -1,104 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Amaranth|Assistant|Nobile|Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-
     <title>AE Portfolio</title>
   </head>
   <body>
-
-    <!-- NavBar with future Logo -->
+    <!--Home Page -->
     <header>
-      <ul class="nav justify-content-center fixed-top">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="myBtn" href="#projects">My Projects</a>
-        </li>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+        <a href="#" class="navbar-brand text-light">
+          <span class="h1 font-weight-bold title-name">AE</span>
+          <button type="button" class="navbar-toggler nav-button" data-toggle="collapse" data-target="#myNavbar">
+            <div class="bg-light line1"></div>
+            <div class="bg-light line2"></div>
+            <div class="bg-light line3"></div>
+          </button>
+        </a>
+        <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item nav-active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2 menu-item" href="#contact">Contact Me</a>
+            </li>
           </ul>
-</header>
-    <!--Body of home page  -->
-    <!-- Background Img
-    <img src="img/gcanyon.jpg" alt="Adelita" id="bkgd">  -->
-    <div class="container-fluid" id="home">
-
-    <h1 class="display-4">Adelita Esparza</h1>
-
-    <h2 id="title2">Jr. Front-End Web Developer || Dallas, Tx.</h2>
-    <p> Contact Me: <img src="./img/gmail.png" class="rounded project connect" alt="email">
-      <a href="https://github.com/adela05" target="_blank" id="github"> <i class="fab fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/adelita-esparza" target="_blank"> <i class="fab fa-linkedin connect"></i></a>
-  </p>
-  </div>
-
-
-      <!--<p>"Things may come to those who wait, but only the things left by those who <span id="hustle"> hustle</span>."<br>
-― Abraham Lincoln
-</p> -->
-
-
-      <!-- My Work Page and Modal Popup-->
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-      <div class="row">
-        <div class="col-3 col-md-4">
-            <h3>Tribute of Rosa Parks </h3>
-            <<a href=" "></a>
-            <p data-height="265" data-theme-id="0" data-slug-hash="gvGxNv" data-default-tab="html,result" data-user="adela05" data-embed-version="2" data-pen-title="Rosa Parks Tribute" class="codepen">See the Pen <a href="https://codepen.io/adela05/pen/gvGxNv/">Rosa Parks Tribute</a> by Adelita Esparza (<a href="https://codepen.io/adela05">@adela05</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-          <p> HTML and CSS; a freecodecamp project. </p>
         </div>
-          <div class="col-3 col-md-4">
-            <h3>Camp Trail</h3>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="rounded project" alt="Image">
-            <p> CSS, Node, Express, NPM and MongoDB; <br> a Udemy project learning back-end programming. </p>
-          </div>
-            <div class="col-3 col-md-4">
-          <h3>Overlay Menu</h3>
-          <p data-height="265" data-theme-id="0" data-slug-hash="OZqWmg" data-default-tab="html,result" data-user="adela05" data-embed-version="2" data-pen-title="JS-Overlay-Menu" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/adela05/pen/OZqWmg/">JS-Overlay-Menu</a> by Adelita Esparza (<a href="https://codepen.io/adela05">@adela05</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-      <p> HTML, CSS and JavaScript; <br> a Udemy project to enhance my javascript skills. </p>
-    </div>
+      </nav>
+      <!-- End of Navbar -->
 
-     <!--<span class="close">&times;</span> -->
+      <!-- Banner -->
+      <div class="text-light text-center banner">
+        <h1 class="display-4 banner-heading title-name">Adelita Esparza</h1>
+        <p class="lead banner-par">Jr. Front-End Web Developer / Dallas, Tx.</p>
+      </div>
+      <!-- End of Banner -->
+    </header>
+    <!-- End of Home Page -->
+
+    <!-- About Me -->
+    <section class="p-5 aboutMe">
+      <div class="container-fluid">
+        <!-- title -->
+        <div class="row text-white text-center" id="about">
+          <div class="col m-4">
+            <h1 class="display-4 mb-4 title-name">About Me</h1>
+            <p class="lead">As a newcomer into the Front-End Web Development field, I am currently working on expanding my toolset in JavaScript, jQuery, HTML5, CSS3, and Bootstrap.
+          I love to build responsive websites that require conceptual and analytical thinking. I’m excited to learn more, and honing my skills on Node.js, Express, and MongoDB.
+          I’m currently practicing on my back-end coding skills, but my ultimate goal to become a primary front-end web developer with some back-end knowledge.</p>
+          </div>
+        </div>
+        <!-- end of title -->
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 text-center">
+              <img src="./img/ae.jpg" width="300" class="img-fluid ae-img rounded">
+            </div>
+            <div class="col-lg-7 text-lg-left text-center hobbies-text">
+              <h1 class="text-white title-name">Hobbies</h1>
+              <p class="lead text-white">I am a member of Women Who Code, and attend meetups monthly. I am also part of the Hiker Chicks Rock organization as well as the Dreamers Book club.
+            We are a group of women who enjoy activities that help inspire and support other women in different levels in life.
+            Feel free to browse through my portfolio. Honest feedback about my work is always greatly appreciated!</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- End of About Me -->
+
+    <!-- Portfolio -->
+    <section class="bg-light p-5"id="portfolio">
+      <div class="container-fluid">
+        <!--title -->
+        <div class="row">
+          <div class="col text-center mb-3">
+            <h1 class="display-4 mb-4 title-name">Projects</h1>
+            <p class="lead"> Some info here.</p>
+          </div>
+        </div>
+        <!--end of title -->
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <div class="card border-0 card-shadow">
+              <a href=" "></a>
+              <p data-height="265" data-theme-id="0" data-slug-hash="gvGxNv" data-default-tab="html,result"
+              data-user="adela05" data-embed-version="2" data-pen-title="Rosa Parks Tribute" class="codepen card-img">See the Pen
+              <a href="https://codepen.io/adela05/pen/gvGxNv/">Rosa Parks Tribute</a> by Adelita Esparza
+              (<a href="https://codepen.io/adela05">@adela05</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              <h2 class="mx-3">Tribute of Rosa Parks</h2>
+              <p class="mx-3">HTML and CSS; a freecodecamp project.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <div class="card border-0 card-shadow">
+              <p data-height="265" data-theme-id="0" data-slug-hash="OZqWmg" data-default-tab="html,result" data-user="adela05"
+              data-embed-version="2" data-pen-title="JS-Overlay-Menu" data-preview="true" class="codepen card-img">See the Pen
+              <a href="https://codepen.io/adela05/pen/OZqWmg/">JS-Overlay-Menu</a> by Adelita Esparza
+              (<a href="https://codepen.io/adela05">@adela05</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              <h2 class="mx-3">Overlay Menu</h2>
+              <p class="mx-3">HTML, CSS and JavaScript; Udemy project to enhance my javascript skills.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-      <!--Footer  -->
-      <footer class="container-fluid footer">
-  <hr>
-        <p>Created By: Me.<br> Feel free to take a look underneath the cover.<br>   &copy; Copyright 2018 All rights reserved.</p>
-          <div>Icons made by <a href="http://www.freepik.com" title="Freepik" class="link">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="link">www.flaticon.com</a> is licensed by
-            <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" class="link">CC 3.0 BY</a></div>
+    </section>
+    <!-- End of Portfolio -->
 
-      </footer>
+    <!-- Contact Me -->
+    <section class="p-5 bg-dark" id="contact">
+      <div class="container-fluid">
+        <!--title -->
+        <div class="row">
+          <div class="col text-center text-white mb-3">
+            <h1 class="display-4 mb-4 title-name">Contact Me</h1>
+          </div>
+        </div>
+        <!--end of title -->
+        <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+          <div class="text-center text-white">
+            <p>Honest feedback about my work is always greatly appreciated!</p>
+          </div>
+          <form class="text-white" action="index.html" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" rows="3" id="message"></textarea>
+            </div>
+            <button class="btn btn-ouline-warning btn-block" type="submit">Submit</button>
+          </form>
 
-  </div>
-</div>
-</div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End of Contact Me -->
+
+    <!-- Footer -->
+    <footer class="bg-dark px-5">
+      <div class="container-fluid">
+        <div class="row text-light py-4">
+          <div class="col text-center">
+            <p>Created By: Me.<br>Feel free to take a look underneath the cover.
+              <br>&copy; Copyright 2018 All rights reserved.</p>
 
 
 
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <!-- Bootstrap JS CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- My custom JS -->
-  <script src="./javascript/portfolio.js"></script>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- End of Footer -->
+
+
+
+    <!-- Bootstrap tooltips -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- My custom JS -->
+    <script src="./javascript/portfolio.js"></script>
   </body>
 </html>
